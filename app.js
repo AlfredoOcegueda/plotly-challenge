@@ -88,7 +88,7 @@ function Plot(nameID){
                  gauge: { axis: { range: [null, 9],
                             tickvals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
                             ticks: "outside" },
-                 bar:{color: "red"},
+                 bar:{color: "indianred"},
                     steps: [
                      { range: [0, 1], color: "rgba(255, 251, 216, 1)"},
                      { range: [1, 2], color: "rgba(239, 233, 196, 1)"},
