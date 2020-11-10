@@ -48,7 +48,7 @@ function Plot(nameID){
          var linearsc = d3.scaleLinear()
             .domain([min, max])
             .range([0, 1]);
-         var bubbleColors = otuId.map(val => d3.interpolateRgbBasis(["red", "blue", "green"])(linearsc(val)));
+         var bubbleColors = otuId.map(val => d3.interpolateRgbBasis(["navy", "lawngreen", "tan"])(linearsc(val)));
          
          // Creating the Trace and adding attributes
          var trace1 = {
